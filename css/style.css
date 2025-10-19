@@ -10,7 +10,7 @@ body {
 .header {
     background-image: (images/module_2_assets/1.jpeg);
     background-color: lightslategray;
-    height: 100vh;
+    height: 50vh;
     color: white;
     text-align: center;
     position: relative;
@@ -47,9 +47,10 @@ body {
     position: relative;
 }
 
- .splash h2 {
+    .splash h2 {
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
- }
+    }
+
 .btn {
     background: gold;
     color: white;
@@ -59,3 +60,40 @@ body {
     font-weight: bold;
 }
 
+.service {
+    padding: 10px 0;
+    text-align: center;
+    background: #fff;
+}
+
+    .service h2 {
+        color: black;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .service p {
+        color: grey;
+        margin-bottom: 40px;
+    }
+
+.service-grid {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    width: 250px;
+}
+
+    .service-item h3{
+        color: black;
+    }
+
+.icon {
+    font-size: 40px;
+    color: gold;
+    margin-bottom: 10px;
+}
