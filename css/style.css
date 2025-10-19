@@ -1,3 +1,61 @@
 
 
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+
+body {
+    font-family: 'Roboto', sans-serif;;
+    color: white;
+}
+
+.header {
+    background-image: (images/module_2_assets/1.jpeg);
+    background-color: lightslategray;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+}
+
+.nav-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: gold;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+    .nav-links a {
+        color: white; 
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+}
+
+.splash {
+    position: relative;
+}
+
+ .splash h2 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ }
+.btn {
+    background: gold;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
