@@ -97,3 +97,48 @@ body {
     color: gold;
     margin-bottom: 10px;
 }
+
+.portfolio {
+    padding: 80px 0;
+    text-align: center;
+    background: lightgray;
+}
+
+    .portfolio h2 {
+        font-size: 40px;
+        font-weight: 700;
+        color: black;
+    }
+
+    .portfolio p {
+        color: #777;
+        margin-bottom: 40px;
+    }
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.portfolio-item {
+    background-color: white;
+}
+
+    .portfolio-item img {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .portfolio-item h4 {
+        margin-top: 10px;
+        font-weight: 700;
+        color: black;
+    }
+
+    .portfolio-item p {
+        color: grey;
+        font-size: 14px;
+    }
