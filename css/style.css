@@ -142,3 +142,31 @@ body {
         color: grey;
         font-size: 14px;
     }
+
+.footer {
+    background: #fff;
+    padding: 20px;
+    font-size: 14px;
+    color: #555;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.copyright {
+    text-align: start;
+}
+
+.media {
+    margin-top: 10px;
+    display: flex;
+    font-size: 20px;
+}
+
+    .media a {
+    color: #555;
+    margin: 0 5px;
+    text-decoration: none;
+    font-size: 25px;
+    }
+    
